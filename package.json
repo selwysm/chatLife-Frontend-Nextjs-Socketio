@@ -11,6 +11,14 @@
   "dependencies": {
     "next": "13.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "socket.io-client": "^4.6.1",
+    "styled-components": "^5.3.10"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.1.1"
   }
 }
