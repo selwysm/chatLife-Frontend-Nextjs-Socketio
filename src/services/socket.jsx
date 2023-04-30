@@ -1,8 +1,8 @@
 import io from "socket.io-client";
 
 const url = {
-  baseURL: "http://localhost:8000",
-  // baseURL:,
+  // dev: "http://localhost:8000",
+  prod: "https://chatlife-deploy.onrender.com",
 };
 
-export const socket = io(url.baseURL);
+export const socket = io(url.prod);
